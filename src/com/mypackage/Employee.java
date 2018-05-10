@@ -1,6 +1,9 @@
 package com.mypackage;
-
+import javax.persistence.*;
+@Entity
+@Table(name="emp1000")
 public class Employee {
+	@Id
 	private int id;  
 	private String firstName,lastName;  
 	  
